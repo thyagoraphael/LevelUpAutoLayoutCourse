@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6DF7A5B26AE4FA200DACEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF7A5A26AE4FA200DACEEB /* AppDelegate.swift */; };
+		F6DF7A5D26AE4FA200DACEEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF7A5C26AE4FA200DACEEB /* SceneDelegate.swift */; };
+		F6DF7A5F26AE4FA200DACEEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF7A5E26AE4FA200DACEEB /* ViewController.swift */; };
+		F6DF7A6426AE4FA300DACEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DF7A6326AE4FA300DACEEB /* Assets.xcassets */; };
+		F6DF7A6726AE4FA300DACEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DF7A6526AE4FA300DACEEB /* LaunchScreen.storyboard */; };
+		F6DF7A7326AE514200DACEEB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF7A7226AE514200DACEEB /* Challenge.swift */; };
+		F6DF7A7626AE532A00DACEEB /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF7A7526AE532A00DACEEB /* Factories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6DF7A5726AE4FA200DACEEB /* ChallengeSpotifyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeSpotifyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DF7A5A26AE4FA200DACEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6DF7A5C26AE4FA200DACEEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6DF7A5E26AE4FA200DACEEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DF7A6326AE4FA300DACEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6DF7A6626AE4FA300DACEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6DF7A6826AE4FA300DACEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DF7A7226AE514200DACEEB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		F6DF7A7526AE532A00DACEEB /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DF7A5426AE4FA200DACEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6DF7A4E26AE4FA200DACEEB = {
+			isa = PBXGroup;
+			children = (
+				F6DF7A5926AE4FA200DACEEB /* ChallengeSpotifyPlayer */,
+				F6DF7A5826AE4FA200DACEEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6DF7A5826AE4FA200DACEEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DF7A5726AE4FA200DACEEB /* ChallengeSpotifyPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DF7A5926AE4FA200DACEEB /* ChallengeSpotifyPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F6DF7A6F26AE4FB800DACEEB /* Files */,
+				F6DF7A5A26AE4FA200DACEEB /* AppDelegate.swift */,
+				F6DF7A5C26AE4FA200DACEEB /* SceneDelegate.swift */,
+				F6DF7A5E26AE4FA200DACEEB /* ViewController.swift */,
+				F6DF7A7226AE514200DACEEB /* Challenge.swift */,
+				F6DF7A7526AE532A00DACEEB /* Factories.swift */,
+			);
+			path = ChallengeSpotifyPlayer;
+			sourceTree = "<group>";
+		};
+		F6DF7A6F26AE4FB800DACEEB /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DF7A6526AE4FA300DACEEB /* LaunchScreen.storyboard */,
+				F6DF7A6826AE4FA300DACEEB /* Info.plist */,
+				F6DF7A6326AE4FA300DACEEB /* Assets.xcassets */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6DF7A5626AE4FA200DACEEB /* ChallengeSpotifyPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DF7A6B26AE4FA300DACEEB /* Build configuration list for PBXNativeTarget "ChallengeSpotifyPlayer" */;
+			buildPhases = (
+				F6DF7A5326AE4FA200DACEEB /* Sources */,
+				F6DF7A5426AE4FA200DACEEB /* Frameworks */,
+				F6DF7A5526AE4FA200DACEEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeSpotifyPlayer;
+			productName = ChallengeSpotifyPlayer;
+			productReference = F6DF7A5726AE4FA200DACEEB /* ChallengeSpotifyPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DF7A4F26AE4FA200DACEEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F6DF7A5626AE4FA200DACEEB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = F6DF7A5226AE4FA200DACEEB /* Build configuration list for PBXProject "ChallengeSpotifyPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6DF7A4E26AE4FA200DACEEB;
+			productRefGroup = F6DF7A5826AE4FA200DACEEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DF7A5626AE4FA200DACEEB /* ChallengeSpotifyPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6DF7A5526AE4FA200DACEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DF7A6726AE4FA300DACEEB /* LaunchScreen.storyboard in Resources */,
+				F6DF7A6426AE4FA300DACEEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6DF7A5326AE4FA200DACEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DF7A5F26AE4FA200DACEEB /* ViewController.swift in Sources */,
+				F6DF7A7326AE514200DACEEB /* Challenge.swift in Sources */,
+				F6DF7A5B26AE4FA200DACEEB /* AppDelegate.swift in Sources */,
+				F6DF7A7626AE532A00DACEEB /* Factories.swift in Sources */,
+				F6DF7A5D26AE4FA200DACEEB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6DF7A6526AE4FA300DACEEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DF7A6626AE4FA300DACEEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6DF7A6926AE4FA300DACEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6DF7A6A26AE4FA300DACEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6DF7A6C26AE4FA300DACEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B792F458DS;
+				INFOPLIST_FILE = ChallengeSpotifyPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thyagoraphael1987.ChallengeSpotifyPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6DF7A6D26AE4FA300DACEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B792F458DS;
+				INFOPLIST_FILE = ChallengeSpotifyPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thyagoraphael1987.ChallengeSpotifyPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6DF7A5226AE4FA200DACEEB /* Build configuration list for PBXProject "ChallengeSpotifyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DF7A6926AE4FA300DACEEB /* Debug */,
+				F6DF7A6A26AE4FA300DACEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DF7A6B26AE4FA300DACEEB /* Build configuration list for PBXNativeTarget "ChallengeSpotifyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DF7A6C26AE4FA300DACEEB /* Debug */,
+				F6DF7A6D26AE4FA300DACEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DF7A4F26AE4FA200DACEEB /* Project object */;
+}
